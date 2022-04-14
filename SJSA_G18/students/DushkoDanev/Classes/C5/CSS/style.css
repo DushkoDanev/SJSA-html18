@@ -1,0 +1,106 @@
+body {
+    /* background-color: red; */
+    /* background-image: url("../Images/more-leaves-on-green.png"); */
+    /* background-size: cover; */
+    /* background-position: center;
+    background-repeat: no-repeat; */
+}
+
+/* h2 {
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#hello-title{
+    color: maroon;
+    font-size: 60px;
+    text-decoration: line-through;
+}
+
+.another-title{
+    color: aqua;
+    font-size: 70px;
+    text-decoration: overline;
+}
+
+p {
+    color: chocolate;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 38px;
+    letter-spacing: 10px;
+}
+
+h4 {
+    font-size: 30px;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: 100;
+}
+.Naslov-1{
+    font-size: 20px;
+    color: blueviolet;
+    font-style: bold;
+}
+.Naslov-2{
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+}
+.Naslov-3{
+    font-size: 30px;
+    color:yellowgreen;
+    font-style: normal;
+}
+.Naslov-4{
+    font-size: 35px;
+    color: purple;
+    font-style: oblique;
+}
+.Paragraf-1 {
+    font-size:10px ;
+    color: brown;
+    font-style: normal;
+    line: height 10px;;
+    letter-spacing: 2px;
+}
+.Paragraf-2 {
+    font: size 15px;
+    color: black;
+    font-style: bold;
+    line: height 15px;;
+    letter-spacing: 3px;
+}
+.Paragraf-3 {
+    font: size 20px;
+    color:blueviolet;
+    font-style: italic;
+    line: height 20px;
+    letter-spacing: 4px;
+}
+.Paragraf-4 {
+    font: size 25px;
+    color: yellow;
+    font-style: oblique;
+    line: height 25px;
+    letter-spacing: 5px;
+} */
+.Left{
+    background-position: left;
+    background-image: url("../Images/more-leaves-on-green.png");
+    background-repeat: no-repeat;
+}
+.Center {
+    background-position: center;
+    background-image: url("../Images/more-leaves-on-green.png");
+    background-repeat: no-repeat;
+}
+.Right{
+    background-position: right;
+    background-image: url("../Images/more-leaves-on-green.png");background-repeat: no-repeat;
+}
+.Everywhere {
+    
+    background-image: url("../Images/more-leaves-on-green.png");
+}

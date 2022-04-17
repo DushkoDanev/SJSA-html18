@@ -1,0 +1,126 @@
+main {
+    margin: 20px 70px 20px 70px;
+    /* background-color: rgb(198, 198, 198); */
+}
+
+.Links-header {
+    float: right;
+}
+
+.intro {
+    
+    background-color: rgb(198, 198, 198);
+    padding: 10px 50px 0px 20px;
+    display: inline-block;
+
+}
+
+.featured {
+    padding: 50px 350px 30px 50px;
+    float: right;
+    background-color: rgb(135, 135, 135);
+    display: inline-block;
+    font-size: large;
+    
+    
+
+}
+
+.options {
+    
+    background-color: white;
+
+}
+
+.services1 {
+    margin: 11px 11px 11px 11px;
+    height: 30%;
+    width: 30%;
+    float: left;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.services2 {
+    height: 30%;
+    width: 30%;
+    margin: 11px 11px 11px 11px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.services3 {
+    margin: 11px 11px 11px 11px;
+    height: 30%;
+    width: 30%;
+    float: right;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.recent-work1 {
+    margin: 11px 11px 11px 11px;
+    width: 30%;
+    height: 30%;
+    float: left;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.recent-work2 {
+    margin: 11px 11px 11px 11px;
+    width: 30%;
+    height: 30%;
+    float: none;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.recent-work3 {
+    margin: 11px 11px 11px 11px;
+    width: 30%;
+    height: 30%;
+    /* float: right; */
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+.twitter {
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: rgb(198, 198, 198);
+}
+
+
+.Links-footer {
+    float: left;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.copyright {
+    float: right;
+    height: 50px;
+    vertical-align: middle;
+}
+
+header {
+    background-color: #c3c3c3;
+    border: 1px solid;
+    height: 50px;
+}
+
+footer {
+    background-color: #c3c3c3;
+    border: 1px solid;
+    height: 50px;
+}
+

@@ -1,0 +1,235 @@
+html, body {  
+    width: 960px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto 40px auto;
+    height: 100%;
+    color: #353b47;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    background-color: #e6efff;
+    margin: 0px;
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: medium;
+    margin-right: 650px;
+}
+
+.header button {
+    margin-right: 40px;
+    justify-content: end;
+}
+
+.header a {
+    background-color: #f4a392;
+    color: #827a87;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.top-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.top-left {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+.top-left h1 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.top-left p {
+    text-align: justify;
+}
+
+.button {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.link {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.top-right {
+    display: flex; 
+    background-image: url(https://images.pexels.com/users/avatars/79430/napasorn-disaraporn-893.png?auto=compress&fit=crop&h=256&w=256);
+    border-image-repeat: space;  
+    padding: 50px 150px; 
+}
+
+.central-content {
+    text-align: center;
+    flex-direction: column;
+}
+
+.central-content h1 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.central-content p {
+    font-size: small;
+}
+
+.options, .central-content {
+    background-image: url(http://i11.wikimapia.org/?x=887&y=410&zoom=10&type=map&lng=0);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+
+.content-block {
+    width: calc(100% / 3);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    padding: 50px 120px;
+    background-image: url(https://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/tile/7/90/54);
+    background-repeat: round;
+}
+
+.bottom-right {
+    margin: 30px 100px;
+}
+
+.bottom-right a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left {
+    margin: 30px 90px;
+}
+
+footer .right {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.right {
+    background-image: url(http://i0.wikimapia.org/?x=2608&y=3672&zoom=13&type=map&lng=0);
+    padding: 40px 150px;
+    gap: 15px ;
+}
+
+.monthly-plan {
+    background-color: #45465a;
+    text-align: center;
+    padding: 10px 50px;
+    color: #b1b1b9;
+    margin-right: 0px;
+}
+
+.monthly-plan h3 {
+    font-size: small;
+}
+
+.monthly-plan p {
+    font-size: 10px;
+}
+
+.monthly-plan h1 {
+    color: #e19c95;
+}
+
+.monthly-plan a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    font-size: 9px;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-color: #b1b1b9;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+}
+
+.yearly-plan {
+    background-color: #45465a;
+    text-align: center;
+    padding: 10px 40px;
+    color: #b1b1b9;
+}
+
+.yearly-plan h3 {
+    font-size: small;
+}
+
+.yearly-plan p {
+    font-size: 10px;
+}
+
+.yearly-plan h1 {
+    color: #e19c95;
+}
+
+.yearly-plan a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    font-size: 9px;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-color: #b1b1b9;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+}

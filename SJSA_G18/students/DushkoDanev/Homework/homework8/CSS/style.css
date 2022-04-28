@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 36px 0px 36px;
+    margin: 0 auto;
+    width: auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 30px 0px;
+}
+
+header li {
+    justify-content: flex-end;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-end;
+    }
+
+.options {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin: 70px 0 0 0;
+}
+
+.options ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+.options li {
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.options a {
+    text-decoration: none;
+    color: black;
+    padding-left: 0%;
+}
+
+.cat {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0 5px 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+.main-content {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-content img {
+    width: 350px;
+}
+
+.bottom-content {
+    padding: 70px 0px;
+}
+
+.bottom-content a {
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+footer {
+    min-width: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 30px;
+    position: relative;
+    margin: 0;
+}
+
+footer a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-right {
+    text-align: right;
+}
